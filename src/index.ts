@@ -4,6 +4,8 @@ import villages from './data/villages.json'
 
 import { districtsByRegionId, villagesByDistrictId } from './utils'
 import type { Region, District, Village } from './types'
+export type { Region, District, Village } from './types'
+
 
 // Viloyatlar ro‘yxati
 export function getRegions(): Region[] {
