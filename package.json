@@ -1,6 +1,6 @@
 {
   "name": "hududlar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "O'zbekiston hududlari: viloyatlar, tumanlar, qishloqlar uchun TypeScript kutubxonasi",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
