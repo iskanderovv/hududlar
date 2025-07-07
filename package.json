@@ -1,0 +1,40 @@
+{
+  "name": "hududlar",
+  "version": "1.0.0",
+  "description": "O'zbekiston hududlari: viloyatlar, tumanlar, qishloqlar uchun TypeScript kutubxonasi",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iskanderovv/hududlar"
+  },
+  "keywords": [
+    "uzbekistan",
+    "regions",
+    "districts",
+    "villages",
+    "soato",
+    "hudud",
+    "location",
+    "typescript",
+    "tuman",
+    "qishloq",
+    "viloyat",
+    "dasturchilar uchun uzbekiston hududlari",
+    "json o'zbekiston hududlari"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.8.3"
+  }
+}
