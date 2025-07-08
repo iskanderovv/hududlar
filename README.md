@@ -144,8 +144,6 @@ interface Village {
 
 MIT © Akbar Iskanderov
 
----
-
 ## 🤝 Hissa qo‘shish
 
 Pull request yoki issue ochish orqali takliflaringizni yuboring.  
