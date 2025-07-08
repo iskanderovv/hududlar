@@ -142,7 +142,7 @@ interface Village {
 
 ## 📄 Litsenziya
 
-MIT © Your Name
+MIT © Akbar Iskanderov
 
 ---
 
